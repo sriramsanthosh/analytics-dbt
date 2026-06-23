@@ -1,5 +1,5 @@
 {{
-    config(materialized = 'incremental', unique_key = 'order_id')
+    config(materialized = 'incremental', unique_key = ['order_id', 'product_id'])
 }}
 
 select
