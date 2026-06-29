@@ -3,7 +3,6 @@
 {{
     config(
         target_schema   = 'SNAPSHOTS',
-        target_database = 'DEV_ANALYTICS',
         unique_key      = 'product_id',
         strategy        = 'timestamp',
         updated_at      = 'launched_at'
