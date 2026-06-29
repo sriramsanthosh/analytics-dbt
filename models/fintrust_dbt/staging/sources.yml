@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: stg_customers
+    database: FINTRUST_ANALYTICS
+    schema: customers
+    tables: 

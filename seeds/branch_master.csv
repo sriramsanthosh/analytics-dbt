@@ -1,0 +1,11 @@
+branch_code,branch_name,city,state,zone,tier
+MUM001,Mumbai Main Branch,Mumbai,Maharashtra,West,1
+CHE001,Chennai Central,Chennai,Tamil Nadu,South,1
+DEL001,Delhi Connaught Place,Delhi,Delhi,North,1
+BLR001,Bengaluru MG Road,Bengaluru,Karnataka,South,1
+HYD001,Hyderabad Banjara Hills,Hyderabad,Telangana,South,2
+PUN001,Pune FC Road,Pune,Maharashtra,West,2
+KOL001,Kolkata Park Street,Kolkata,West Bengal,East,2
+AHM001,Ahmedabad CG Road,Ahmedabad,Gujarat,West,2
+JAI001,Jaipur MI Road,Jaipur,Rajasthan,North,3
+SUR001,Surat Ring Road,Surat,Gujarat,West,3
