@@ -54,12 +54,12 @@ models:
 #       zone : varchar(10)
 
 
-seeds:
-  +my_new_project:
-    +schema: seeds
-    +quote_columns: false
-    state_region_mapping:
-      +column_types:
-        state: varchar(50)
-        region: varchar(50)
-        zone: varchar(10)
+seeds: 
+  my_new_project: 
+  +schema: seeds
+  +quote_columns: false
+  state_region_mapping:
+    +column_types:
+      state: varchar(50)
+      region: varchar(50)
+      zone : varchar(10)
