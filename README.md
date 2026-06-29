@@ -1,2 +1,2 @@
 # analytics-dbt
-Using this repo for DBT training
+Using this branch for final one

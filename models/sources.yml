@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: raw
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: orders
+
+  - name: stripe
+    database: raw
+    schema: stripe
+    tables:
+      - name: payment
+
+  - name: customers
+    database: dev_analytics
+    schema: dbt_santitha
+    tables:
+      - name: stg_customer_address
