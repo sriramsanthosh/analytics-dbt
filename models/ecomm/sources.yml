@@ -53,8 +53,8 @@ sources:
 
   - name: orders
     description: "order transactions including line items and status history"
-    database: ECOMM_RAW
-    schema: ORDERS
+    database: ecomm_raw
+    schema: orders
     tables:
       - name: orders
         description: "order header — one row per order"
@@ -110,8 +110,8 @@ sources:
 
   - name: products
     description: "product catalog"
-    database: ECOMM_RAW
-    schema: PRODUCTS
+    database: ecomm_raw
+    schema: products
     tables:
       - name: products
         description: "product master — one row per product"
@@ -137,8 +137,8 @@ sources:
 
   - name: inventory
     description: "warehouse stock levels per product"
-    database: ECOMM_RAW
-    schema: INVENTORY
+    database: ecomm_raw
+    schema: inventory
     tables:
       - name: warehouses
         description: "warehouse master — one row per warehouse"
@@ -174,8 +174,8 @@ sources:
 
   - name: marketing
     description: "marketing campaigns and customer click events"
-    database: ECOMM_RAW
-    schema: MARKETING
+    database: ecomm_raw
+    schema: marketing
     tables:
       - name: campaigns
         description: "campaign master — one row per campaign"
@@ -215,8 +215,8 @@ sources:
 
   - name: logistics
     description: "shipment and delivery tracking data"
-    database: ECOMM_RAW
-    schema: LOGISTICS
+    database: ecomm_raw
+    schema: logistics
     tables:
       - name: shipments
         description: "one shipment per order — tracks carrier and delivery dates"
@@ -256,8 +256,8 @@ sources:
 
   - name: finance
     description: "invoice and payment records"
-    database: ECOMM_RAW
-    schema: FINANCE
+    database: ecomm_raw
+    schema: finance
     tables:
       - name: invoices
         description: "one invoice per order — tracks amount due and payment status"
@@ -297,8 +297,8 @@ sources:
 
   - name: support
     description: "customer support ticket data"
-    database: ECOMM_RAW
-    schema: SUPPORT
+    database: ecomm_raw
+    schema: support
     tables:
       - name: support_tickets
         description: "one row per support ticket raised by a customer"
